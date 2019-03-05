@@ -1,0 +1,183 @@
+body {
+    /* background: #6f4e37; */
+    background-image: url("./images/coffeebackground.jpg");
+    font-family: 'Raleway', sans-serif;
+    position: static;
+}
+
+header {
+    border: 5px green solid;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.top-title {
+    font-weight: bolder;
+    font-size: 34px;
+    color: sandybrown;
+}
+
+.business {
+    font-size: 80px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.navi {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #654321;
+}
+
+li {
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+ul li:nth-child(1) {
+    color: sandybrown;
+}
+
+
+
+.image {
+    height: 600px;
+    width: 820px;
+    position: relative;
+    z-index: -3;
+}
+
+.picture-section {
+    border: 5px dotted blue;
+    height:780px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    position: relative;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: auto;
+    left: 150px;
+    background: lightgray;
+    padding: 70px;
+    border-radius: 5px;
+
+}
+
+.fresh {
+    border: black 3px solid;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.worth {
+    border: skyblue 3px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.para {
+    border: black 3px solid;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.caption-button {
+    border: skyblue 3px solid;
+    border-radius: 5px;
+    background:  #4CAF50;
+    padding: 6px 35px;
+    display: flex;
+    background-color:  #4CAF50;
+    justify-content: center;
+    bottom: -30px;
+    left: 100px;
+    position: absolute
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.promise {
+    height: 550px;
+    border: darkorange solid 10px;
+    background: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.promise-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    width: 950px;
+    height: 300px;
+    padding: 20px;
+    border-color: sandybrown;
+    border-width: 10px;
+    border-style: double;
+    border-radius: 15px;
+    
+}
+
+.promise-para {
+    padding-top: 50px;
+    width: 820px;
+    text-align: center;
+}
+
+.our-promise {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.to-you {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.nothing {
+    height: 80px;
+    border: 5px dashed blue;
+}
+
+.copyright {
+    height: 120px;
+    border: 5px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background: green;
+}

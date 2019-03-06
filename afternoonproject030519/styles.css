@@ -2,17 +2,21 @@ body {
     /* background: #6f4e37; */
     background-image: url("./images/coffeebackground.jpg");
     font-family: 'Raleway', sans-serif;
-    position: static;
+
+    /* the code below fixes the background in place while everything else moves */
+    background-attachment: fixed;
+    /* the code above fixes the background in place while everything else moves */
 }
 
 header {
-    border: 5px green solid;
+    border: 5px green solid`;
     height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: sticky;
+    
 }
 
 .top-title {
@@ -34,6 +38,7 @@ header {
     justify-content: center;
     align-items: center;
     background: #654321;
+    opacity: 0.9;
 }
 
 li {
@@ -51,6 +56,7 @@ ul li:nth-child(1) {
     height: 600px;
     width: 820px;
     position: relative;
+    border-radius: 8px;
     z-index: -3;
 }
 
@@ -70,10 +76,11 @@ ul li:nth-child(1) {
     flex-direction: column;
     position:absolute;
     top: auto;
-    left: 150px;
+    left: 240px;
     background: lightgray;
     padding: 70px;
     border-radius: 5px;
+    opacity: 0.9;
 
 }
 
@@ -133,6 +140,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 0.9;
 }
 
 .promise-container {
@@ -180,4 +188,5 @@ button {
     align-items: center;
     color: gray;
     background: green;
+    opacity: 0.9;
 }
